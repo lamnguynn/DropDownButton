@@ -4,6 +4,13 @@ A easy to use drop down button written in Swift.
 
 ![Demo](demoDropDown.gif)
 
+## Installation
+
+### Cocoapods
+1. Add `pod 'DropDownButton', :git => 'https://github.com/lamnguynn/DropDownButton.git', :tag => '1.0.3' ` to your *Podfile*. 
+2. Install the pod(s) by running `pod install`.
+3. Add `import DropDownButton` in the .swift files where you want to use it
+
 ## Basic Usage
 After installing, it works similar to a UIButton where you will create the object and then assign whatever property is needed such as the title and any colors.
 
@@ -92,9 +99,6 @@ Additionally, you can set the `dropDownTextSize` property of the button to manua
 ## Updates
 -  `08/14/2021`: Added some new customization properties, and fixed minor bugs with the button.
 -  `08/13/2021`: Made it easier to customize the drop-down menu via new properties added to the class. Added markup documentation to public variables and functions. 
-
-## Upcoming Features
-- Installing with Cocoapods
 
 ## Lessons Learned
 - Ability to markup certain variables or functions to allow for greater documentation when creating custom classes. Quite simple to use but very powerful. 
