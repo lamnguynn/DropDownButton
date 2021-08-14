@@ -97,7 +97,7 @@ dropDownButton.titleLabel?.minimumScaleFactor = 0.3                             
 Additionally, you can set the `dropDownTextSize` property of the button to manually change the size of the text.
 
 ## Updates
--  `08/14/2021`: Added some new customization properties, and fixed minor bugs with the button.
+-  `08/14/2021`: Added some new customization properties, and fixed minor bugs with the button. Added Cocoapod installation, though it can only be downloaded from a Git repo since DropDownButton was taken as a name on Cocoapods.
 -  `08/13/2021`: Made it easier to customize the drop-down menu via new properties added to the class. Added markup documentation to public variables and functions. 
 
 ## Lessons Learned
