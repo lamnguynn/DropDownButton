@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "14.5"
   spec.swift_version = "5"
   spec.source       = { :git => "https://github.com/lamnguynn/DropDownButton.git", :tag => spec.version }
-  spec.source_files  = "DropDownButton/**/*.swift"
+  spec.source_files  = "DropDownButton/**/*"
 
 end
