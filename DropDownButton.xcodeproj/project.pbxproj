@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3B2620A526C8064D0002BEB2 /* DropDownButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B26209B26C8064D0002BEB2 /* DropDownButton.framework */; };
-		3B2620AA26C8064D0002BEB2 /* DropDownButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2620A926C8064D0002BEB2 /* DropDownButtonTests.swift */; };
 		3B2620AC26C8064D0002BEB2 /* DropDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B26209E26C8064D0002BEB2 /* DropDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B2620B626C8065E0002BEB2 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2620B526C8065E0002BEB2 /* DropDown.swift */; };
 		3B2620B826C8067B0002BEB2 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2620B726C8067B0002BEB2 /* Button.swift */; };
@@ -32,8 +31,6 @@
 		3B26209E26C8064D0002BEB2 /* DropDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownButton.h; sourceTree = "<group>"; };
 		3B26209F26C8064D0002BEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B2620A426C8064D0002BEB2 /* DropDownButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B2620A926C8064D0002BEB2 /* DropDownButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButtonTests.swift; sourceTree = "<group>"; };
-		3B2620AB26C8064D0002BEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B2620B526C8065E0002BEB2 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
 		3B2620B726C8067B0002BEB2 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		5FEAF725DFC5C38D810BF2C9 /* Pods-DropDownButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownButton.release.xcconfig"; path = "Target Support Files/Pods-DropDownButton/Pods-DropDownButton.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				3B26209D26C8064D0002BEB2 /* DropDownButton */,
-				3B2620A826C8064D0002BEB2 /* DropDownButtonTests */,
 				3B26209C26C8064D0002BEB2 /* Products */,
 				EDD6E797F8902CE7FA587A7E /* Pods */,
 				F7BDC1B85783064608617CF7 /* Frameworks */,
@@ -95,15 +91,6 @@
 			path = DropDownButton;
 			sourceTree = "<group>";
 		};
-		3B2620A826C8064D0002BEB2 /* DropDownButtonTests */ = {
-			isa = PBXGroup;
-			children = (
-				3B2620A926C8064D0002BEB2 /* DropDownButtonTests.swift */,
-				3B2620AB26C8064D0002BEB2 /* Info.plist */,
-			);
-			path = DropDownButtonTests;
-			sourceTree = "<group>";
-		};
 		EDD6E797F8902CE7FA587A7E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +99,6 @@
 				ED2898B9192613131011F153 /* Pods-DropDownButton-DropDownButtonTests.debug.xcconfig */,
 				F8A2A66CF5701F047C41B5EA /* Pods-DropDownButton-DropDownButtonTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -292,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2620AA26C8064D0002BEB2 /* DropDownButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
