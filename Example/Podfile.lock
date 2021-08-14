@@ -1,0 +1,16 @@
+PODS:
+  - DropDownButton (1.0.2)
+
+DEPENDENCIES:
+  - DropDownButton (from `../`)
+
+EXTERNAL SOURCES:
+  DropDownButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DropDownButton: 4ca34461a5d30000d90b9f7d491b6bb1b0e272f1
+
+PODFILE CHECKSUM: b5ffbf23112ba3b3a0bf89ede7a9889fe5a64769
+
+COCOAPODS: 1.10.1
