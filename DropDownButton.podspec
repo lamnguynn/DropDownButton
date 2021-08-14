@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'DropDownButton'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.2'
   spec.summary      = 'An easy to use drop down button'
   spec.description  = <<-DESC
                         An easy to use and customizable button which opens a drop-down menu with selectable elements.
@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "14.5"
   spec.swift_version = "5"
   spec.source       = { :git => "https://github.com/lamnguynn/DropDownButton.git", :tag => spec.version }
-  spec.source_files  = "DropDownButton/**/*.swift"
+  spec.source_files  = "DropDownButton"
 
 end
