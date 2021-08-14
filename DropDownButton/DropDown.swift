@@ -372,11 +372,7 @@ class DropDownMenu: UIView, UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "datacell", for: indexPath)
         tableView.backgroundColor = .clear
-<<<<<<< HEAD
-        
-=======
-            
->>>>>>> 60d1460256c54c1835039407c4032635ccb009cb
+
         //Customize the cell
         cell.textLabel?.text = dataSource[indexPath.row]
         cell.textLabel?.textColor = self.textColor
