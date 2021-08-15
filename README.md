@@ -103,4 +103,5 @@ Additionally, you can set the `dropDownTextSize` property of the button to manua
 ## Lessons Learned
 - Ability to markup certain variables or functions to allow for greater documentation when creating custom classes. Quite simple to use but very powerful. 
 - Practice to be able to build custom assets instead of being handed them via Cocoapods or Apple.
+- Ability to use Git and terminal to upload to Github and Cocoapod. Which was a majority of the project.
 - Creating an application for public use. What this means is not making something in general, it is thinking about what kinds of things other developers will be able to access or not, and making it clean and simple to use.
